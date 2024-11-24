@@ -109,5 +109,5 @@ source ~/.zshrc
 
 ```bash
 # This is on the other repo where I keep my ssh config files
-ln -snf ~/github/dotfiles/sshconfig-pers ~/.ssh/config >/dev/null 2>&1
+ln -snf ~/github/dotfiles-latest/sshconfig-pers ~/.ssh/config >/dev/null 2>&1
 ```

@@ -135,7 +135,7 @@ bind -n D if -F '#{==:#{pane_mode},tree-mode}' 'send X' 'send D'
 
 # Search sessions using an fzf menu
 # Found this gem down here:
-# https://github.com/majjoha/dotfiles/blob/cd6f966d359e16b3a7c149f96d4edb8a83e769db/.config/tmux/tmux.conf#L41
+# https://github.com/majjoha/dotfiles-latest/blob/cd6f966d359e16b3a7c149f96d4edb8a83e769db/.config/tmux/tmux.conf#L41
 bind M-s display-popup -E -w 75% -h 75% "\
   tmux list-sessions -F '#{?session_attached,,#{session_name}}' |\
   sed '/^$/d' |\
@@ -358,7 +358,7 @@ bind-key -T copy-mode-extended 'l' send -X end-of-line \; switch-client -T copy-
 # don't exit copy mode when dragging with mouse
 unbind -T copy-mode-vi MouseDragEnd1Pane
 
-# https://github.com/leelavg/dotfiles/blob/897aa883a/config/tmux.conf#L30-L39
+# https://github.com/leelavg/dotfiles-latest/blob/897aa883a/config/tmux.conf#L30-L39
 # https://scripter.co/command-to-every-pane-window-session-in-tmux/
 # Send the same command to all panes/windows in current session
 bind M-e command-prompt -p "Command:" \

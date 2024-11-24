@@ -2,7 +2,7 @@
 
 # Filename: ~/github/dotfiles-latest/tmux/tools/prime/tmux-sessionizer.sh
 
-# https://github.com/ThePrimeagen/.dotfiles/blob/master/bin/.local/scripts/tmux-sessionizer
+# https://github.com/ThePrimeagen/.dotfiles-latest/blob/master/bin/.local/scripts/tmux-sessionizer
 
 # NOTE:
 # Remember to make this file executable

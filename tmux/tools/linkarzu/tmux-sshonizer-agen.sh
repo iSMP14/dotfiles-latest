@@ -2,7 +2,7 @@
 
 # Filename: ~/github/dotfiles-latest/tmux/tools/linkarzu/tmux-sshonizer-agen.sh
 
-# https://github.com/ThePrimeagen/.dotfiles/blob/master/bin/.local/scripts/tmux-sessionizer
+# https://github.com/ThePrimeagen/.dotfiles-latest/blob/master/bin/.local/scripts/tmux-sessionizer
 
 # NOTE:
 # Remember to make this file executable

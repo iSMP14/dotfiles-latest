@@ -143,7 +143,7 @@ create_symlink ~/github/dotfiles-latest/neovim/neobean/ ~/.config/nvim
 
 # # This is on the other repo where I keep my ssh config files
 # I commented this as I don't have access to this repo in all the hosts
-# ln -snf ~/github/dotfiles/sshconfig-pers ~/.ssh/config 2>&1 >/dev/null
+# ln -snf ~/github/dotfiles-latest/sshconfig-pers ~/.ssh/config 2>&1 >/dev/null
 
 # I'm keeping the old manual commands here
 # ln -snf ~/github/dotfiles-latest/zshrc/zshrc-file.sh ~/.zshrc >/dev/null 2>&1
@@ -159,7 +159,7 @@ create_symlink ~/github/dotfiles-latest/neovim/neobean/ ~/.config/nvim
 # ln -snf ~/github/dotfiles-latest/karabiner/mxstbr ~/.config/karabiner >/dev/null 2>&1
 
 # Autocompletion settings
-# https://github.com/Phantas0s/.dotfiles/blob/master/zsh/completion.zsh
+# https://github.com/Phantas0s/.dotfiles-latest/blob/master/zsh/completion.zsh
 # These have to be on the top, I remember I had issues with some autocompletions if not
 zmodload zsh/complist
 autoload -U compinit
@@ -274,11 +274,11 @@ alias coverage='go test -coverprofile=coverage.out && go tool cover -html=covera
 #
 # If the variable DISABLE_PULL is UNSET, pull the latest changes
 # I set this var from neovim when opening a tmux pane on the right
-echo
-if [[ -z "$DISABLE_PULL" ]]; then
-  echo "Pulling latest changes, please wait..."
-  (cd ~/github/dotfiles-latest && git pull >/dev/null 2>&1) || echo "Failed to pull dotfiles"
-fi
+#echo
+#if [[ -z "$DISABLE_PULL" ]]; then
+#  echo "Pulling latest changes, please wait..."
+#  (cd ~/github/dotfiles-latest && git pull >/dev/null 2>&1) || echo "Failed to pull dotfiles"
+#fi
 # Every time I log into a host I want to pull my github repos, but not cd to that dir
 # So running the command above in a subshell
 #
