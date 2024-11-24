@@ -274,11 +274,11 @@ alias coverage='go test -coverprofile=coverage.out && go tool cover -html=covera
 #
 # If the variable DISABLE_PULL is UNSET, pull the latest changes
 # I set this var from neovim when opening a tmux pane on the right
-echo
-if [[ -z "$DISABLE_PULL" ]]; then
-  echo "Pulling latest changes, please wait..."
-  (cd ~/github/dotfiles-latest && git pull >/dev/null 2>&1) || echo "Failed to pull dotfiles"
-fi
+#echo
+#if [[ -z "$DISABLE_PULL" ]]; then
+#  echo "Pulling latest changes, please wait..."
+#  (cd ~/github/dotfiles-latest && git pull >/dev/null 2>&1) || echo "Failed to pull dotfiles"
+#fi
 # Every time I log into a host I want to pull my github repos, but not cd to that dir
 # So running the command above in a subshell
 #
