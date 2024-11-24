@@ -1025,3 +1025,5 @@ if [ "$OS" = 'Linux' ]; then
 fi
 fpath+=${ZDOTDIR:-~}/.zsh_functions
 fpath+=${ZDOTDIR:-~}/.zsh_functions
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
