@@ -1023,3 +1023,5 @@ if [ "$OS" = 'Linux' ]; then
     source <(kubectl completion zsh)
   fi
 fi
+fpath+=${ZDOTDIR:-~}/.zsh_functions
+fpath+=${ZDOTDIR:-~}/.zsh_functions
