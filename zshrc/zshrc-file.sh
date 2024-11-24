@@ -100,7 +100,7 @@ create_symlink ~/github/dotfiles-latest/kitty/kitty.conf ~/.config/kitty/kitty.c
 create_symlink ~/github/dotfiles-latest/wezterm/wezterm.lua ~/.config/wezterm/wezterm.lua
 create_symlink ~/github/dotfiles-latest/yabai/yabairc ~/.yabairc
 create_symlink ~/github/dotfiles-latest/.prettierrc.yaml ~/.prettierrc.yaml
-create_symlink ~/github/dotfiles-latest/vscode/settings.json "$HOME/Library/Application Support/Code/User/settings.json"
+#create_symlink ~/github/dotfiles-latest/vscode/settings.json "$HOME/Library/Application Support/Code/User/settings.json"
 # Below symlinks are dumb and I need to find a better way to create a new neovim config and
 # just override the settings that I don't need, don't have time for that right now
 create_symlink ~/github/dotfiles-latest/neovim/neobean/lua/config/autocmds.lua ~/github/dotfiles-latest/neovim/neobean-sticky/lua/config/autocmds.lua
@@ -112,7 +112,7 @@ create_symlink ~/github/dotfiles-latest/neovim/neobean/lua/plugins/auto-save.lua
 create_symlink ~/github/dotfiles-latest/neovim/neobean/lua/plugins/mini-files.lua ~/github/dotfiles-latest/neovim/neobean-sticky/lua/plugins/mini-files.lua
 create_symlink ~/github/dotfiles-latest/neovim/neobean/lua/plugins/render-markdown.lua ~/github/dotfiles-latest/neovim/neobean-sticky/lua/plugins/render-markdown.lua
 create_symlink ~/github/dotfiles-latest/neovim/neobean/init.lua ~/github/dotfiles-latest/neovim/neobean-sticky/init.lua
-create_symlink ~/github/dotfiles-latest/lazygit/config.yml "$HOME/Library/Application Support/lazygit/config.yml"
+#create_symlink ~/github/dotfiles-latest/lazygit/config.yml "$HOME/Library/Application Support/lazygit/config.yml"
 
 # Creating symlinks for directories
 create_symlink ~/github/dotfiles-latest/neovim/neobean/ ~/.config/neobean
